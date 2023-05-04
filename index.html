@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade-HTML</title>
+    <p>Clique <a href="formulario.html">aqui</a> para acessar o formulário.</p>
+</head>
+<body>
+    <h1>Participantes do grupo:</h1>
+    <ul>
+    <li>Jéssica Castro</li>
+    <li>Letícia Lacerda</li>
+    <li>Nathália Pereira</li>
+    <li>Nathália Rodrigues</li>
+    <li>Samuel Andrade</li>
+    </ul>
+
+
+    <h1>Perguntas e respostas:</h1>
+    <ol type="A">
+        <li> Na tag "input" com atributo type="text", para que serve o atributo "placeholder"?</li>
+        <p>O atributo "placeholder" em uma tag "input" com o atributo "type=text" é usado para fornecer uma dica ou um exemplo do tipo de informação que deve ser inserida no campo de texto. O texto definido no atributo "placeholder" aparece em cinza claro dentro do campo de texto, e desaparece quando o usuário começa a digitar no campo.</p>
+        <li>Na tag "input" com atributo type="radio" ou type="checkbox", para que serve o atributo "checked"?</li>
+        <p>O atributo "checked" em uma tag "input" com o atributo "type=radio" ou "type=checkbox" é usado para definir o estado inicial do botão de opção ou caixa de seleção como selecionado. Quando o valor do atributo "checked" é definido como "checked", o botão de opção ou caixa de seleção é exibido inicialmente como selecionado. Se o usuário desejar desmarcar o botão de opção ou caixa de seleção, ele poderá clicar nele para alternar o estado.</p>
+        <li>Na tag "input" para que serve o atributo "value"?</li>
+        <p>O atributo "value" em uma tag "input" é usado para definir o valor associado ao elemento de formulário, que é enviado ao servidor quando o formulário é enviado. O valor do atributo "value" depende do tipo de entrada de formulário especificado no atributo "type".</p>
+        <li>Que atributo deve ser utilizado para agrupar vários botões de rádio em um formulário de modo que apenas um deles fique marcado de cada vez?</li>
+        <p>Para agrupar vários botões de rádio em um formulário de modo que apenas um deles possa ser selecionado de cada vez, é necessário atribuir o mesmo valor ao atributo "name" de cada botão de rádio. Isso garante que todos os botões de rádio pertencem ao mesmo grupo e apenas um pode ser selecionado de cada vez.</p>
+        <li>Para que serve a tag "label"? Para que serve o atributo "for" nessa tag?</li>
+        <p>A tag "label" em HTML é usada para associar um rótulo a um elemento de formulário, como um campo de texto, botão ou caixa de seleção. O rótulo é exibido como texto próximo ao elemento de formulário e, quando o usuário clica no rótulo, o elemento de formulário correspondente recebe o foco ou é selecionado. O atributo "for" na tag "label" é usado para associar o rótulo a um elemento de formulário específico. O valor do atributo "for" deve corresponder ao valor do atributo "id" do elemento de formulário correspondente.</p>
+        <li>Na tag "option" para que serve o atributo "selected"?</li>
+        <p> O atributo "selected" é usado na tag "option" em um elemento "select" para definir a opção selecionada por padrão quando a página é carregada. A opção com o atributo "selected" definido é exibida como a opção padrão no menu suspenso.</p>
+        <li>Nas tags de formulário para que serve o atributo "required"?</li>
+        <p>O atributo "required" é usado em elementos de formulário em HTML (como "input", "select" e "textarea") para indicar que um determinado campo deve ser preenchido pelo usuário antes que o formulário possa ser enviado. Quando um campo de formulário é marcado com o atributo "required", o navegador não permitirá que o formulário seja enviado até que o campo seja preenchido. Se o usuário tentar enviar o formulário sem preencher o campo obrigatório, o navegador exibirá uma mensagem de erro solicitando que o usuário preencha o campo.</p>
+        <li>Para que serve a tag "textarea"?</li>
+        <p> A tag "textarea" em HTML é usada para criar uma caixa de texto de várias linhas, permitindo que o usuário insira texto em um formulário ou página da web. A caixa de texto pode ser dimensionada horizontalmente e verticalmente usando os atributos "cols" e "rows" da tag "textarea".</p>
+        <li>Na tag "form" para que serve o atributo "action"?</li>
+        <p>O atributo "action" na tag "form" em HTML é usado para especificar a URL do script ou programa que irá processar os dados do formulário quando o usuário o enviar. Em outras palavras, ele define o destino para onde os dados do formulário serão enviados quando o usuário clicar no botão de envio do formulário. O valor do atributo "action" é geralmente uma URL relativa ou absoluta que aponta para um arquivo do lado do servidor que pode processar os dados enviados pelo formulário. Esse arquivo do lado do servidor pode ser escrito em uma linguagem de programação como PHP, Python, Ruby, etc.</p>
+        <li>Na tag "form" para que serve o atributo "method"? </li>
+        <p>O atributo "method" na tag "form" em HTML é usado para especificar o método HTTP que deve ser usado para enviar os dados do formulário para o servidor. Existem dois métodos HTTP que podem ser usados para enviar dados de formulário: "GET" e "POST". O método "GET" envia os dados do formulário como parte da URL da solicitação. Isso significa que os dados do formulário são visíveis na barra de endereço do navegador. O método "GET" é geralmente usado para enviar dados simples do formulário, como pesquisas ou parâmetros de filtro. O método "POST" envia os dados do formulário no corpo da solicitação HTTP, o que significa que os dados do formulário não são visíveis na barra de endereço do navegador. O método "POST" é geralmente usado para enviar dados mais complexos do formulário, como formulários de inscrição, envio de arquivos, etc.</p>
+        <li>Para que o valor digitado de uma senha não apareça na barra de endereços do navegador, qual deve ser o valor do atributo "method" na tag "form"?</li>
+        <p> O atributo "method" na tag "form" em HTML é usado para especificar o método HTTP que deve ser usado para enviar os dados do formulário para o servidor. No entanto, o valor do atributo "method" não tem impacto na exibição do valor digitado de uma senha na barra de endereços do navegador. Para ocultar o valor digitado de uma senha na barra de endereços do navegador, é necessário definir o atributo "type" do elemento "input" como "password". Isso fará com que o campo de entrada de senha exiba apenas asteriscos ou pontos em vez do valor real da senha.</p>
+        <li>Qual valor deve ser informado no atributo "method" na tag "form" em um formulário que será usado para fazer upload de arquivos?</li>
+        <p> O valor do atributo "method" na tag "form" em um formulário que será usado para fazer upload de arquivos deve ser definido como "POST". Isso ocorre porque o envio de arquivos através de formulários HTML requer o uso do método "POST" para enviar o arquivo para o servidor. O método "GET" não pode ser usado para envio de arquivos, pois ele limita o tamanho da solicitação, e os arquivos geralmente são muito grandes para serem enviados dessa maneira.</p>
+        <li>O que as tags "fieldset" e "legend> produzem?</li>
+        <p> As tags HTML "fieldset" e "legend" são usadas em conjunto para agrupar elementos de formulário relacionados e fornecer uma legenda para esse grupo. A tag "fieldset" é usada para criar uma caixa de grupo que envolve vários elementos de formulário relacionados. Isso ajuda a organizar e agrupar os campos de formulário que têm uma finalidade semelhante. O "fieldset" pode conter qualquer elemento de formulário, como "input", "label", "select", "textarea", entre outros. A tag "legend" é usada para fornecer uma legenda para o grupo de campos de formulário contidos no elemento "fieldset". A legenda geralmente descreve o propósito dos campos de formulário contidos no "fieldset". A tag "legend" deve ser colocada logo após a tag de abertura "fieldset".</p>  
+    </ol>
+   
+</body>
+</html>
