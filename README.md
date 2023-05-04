@@ -1,2 +1,2 @@
 # Atividade-HTML
-Atividade de HTML - Padrões Web
+Atividade de HTML para a matéria de Padrões Web.
